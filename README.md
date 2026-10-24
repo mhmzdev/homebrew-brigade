@@ -4,9 +4,11 @@ The Homebrew tap for [the Brigade](https://github.com/mhmzdev/claude-code-brigad
 Claude Code sessions like a professional kitchen.
 
 ```bash
-brew tap mhmzdev/brigade
-brew install bk
+brew install mhmzdev/brigade/bk
 ```
+
+Always the full name: Homebrew's own `bk` is an unrelated EPUB reader, and a bare
+`brew install bk` gives you that one. Upgrade with `brew upgrade mhmzdev/brigade/bk`.
 
 `bk open` starts the kitchen and sits you with the sous; `bk stop` pauses it; `bk open` again
 resumes it. `bk help` for the rest. You need Claude Code installed and logged in.
