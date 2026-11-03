@@ -6,8 +6,8 @@
 class Bk < Formula
   desc "Brigade kitchen: run several Claude Code sessions like a professional kitchen"
   homepage "https://github.com/mhmzdev/claude-code-brigade"
-  url "https://github.com/mhmzdev/claude-code-brigade/archive/refs/tags/v0.31.0.tar.gz"
-  sha256 "ac3f542b908681d2cc8db0dcd5443796855b3b892543ebe5f545a532d6920551" # filled in by the release workflow
+  url "https://github.com/mhmzdev/claude-code-brigade/archive/refs/tags/v0.32.0.tar.gz"
+  sha256 "a605a792dc1b296b0ed4e64eb7d1ca6f1721f9ace0758fcb7fd54d16d5591875" # filled in by the release workflow
   license "MIT"
   head "https://github.com/mhmzdev/claude-code-brigade.git", branch: "main"
 
